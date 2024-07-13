@@ -1,0 +1,162 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+.caja {
+    width: 200px;
+    height: 150px;
+    background: purple;
+    margin: 20px 0px;
+}
+
+/*Para ejecutar content-box, comentar línea 2*/
+.content-box {
+    padding: 20px;
+    border: 10px solid black;
+}
+
+/*<--------------------------- Overflow ----------------------------->*/
+
+.overflow-box {
+    width: 100px;
+    height: 100px;
+    background: violet;
+}
+
+.space {
+    margin: 20px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/*<--------------------------- Padding ----------------------------->*/
+
+.padding {
+    border: 1px solid red;
+    padding: 20px 10px 30px 40px;
+    padding: 20px 10px 30px;
+    padding: 20px 10px;
+    padding: 15px;
+}
+
+/*<--------------------------- Border ----------------------------->*/
+
+.solid {
+    border: 5px solid purple;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.dashed {
+    border: 5px dashed purple;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.dotted {
+    border: 5px dotted purple;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.double {
+    border: 5px double purple;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.borde {
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 5px double purple;
+    border-right: 5px dotted navy;
+    border-left: 5px dashed crimson;
+    border-top: 5px solid orange;
+}
+
+/*<--------------------------- Border-radius ----------------------------->*/
+
+.radius {
+    padding: 10px;
+    background: #8C54FB;
+    border-radius: 10px;
+}
+
+.circulo, .ovalo {
+    background: #A1CC3A;
+    border: 2px solid crimson;
+    margin: 5px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.circulo {
+    width: 80px;
+}
+
+.ovalo {
+    width: 150px;
+}
+
+.cuadrante {
+    background: #8C54FB;
+    border: 2px solid navajowhite;
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+    border-radius: 0 0 100% 0;
+}
+
+.margin {
+    margin: 20px;
+    margin: 20px 10px;
+    margin: 20px 10px 15px;
+    margin: 20px 10px 15px 30px;
+}
+
+.block {
+    display: inline;
+    border: crimson 1px solid;
+}
+
+.inline {
+    display: block;
+}
+
+.relative {
+    background: crimson;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.padre {
+    position: relative;
+}
+
+.absolute {
+    background: greenyellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.container-hijo {
+    background: green;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: 20px 0;
+}
